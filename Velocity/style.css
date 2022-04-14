@@ -1,0 +1,241 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: white;
+}
+    .navbar {
+        position: absolute;
+        padding:1rem 10rem 2rem 10rem;
+        width: 100%;
+        height: auto
+        }
+        
+        .for_a {
+            display: flex;
+            float: right;
+        }
+        .for_a a{
+            text-decoration:none;
+            color: gray;
+            margin-right: 2rem;
+            justify-content: space-around;
+        }
+        .content1{
+            background-image: url(images/content1.png);
+            background-repeat:no-repeat;
+            background-size:100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .content1 h1{
+            color:white;
+            background-color: transparent;
+            display: flex;
+            position: absolute;
+            padding-bottom:10rem;
+            font-size: 60px;
+        }
+        .content1_buttons{
+            position: absolute;
+            background-color:transparent;
+        }
+        .button1{
+            align-items: center;
+            width: 7rem;
+            border:.1rem solid white;
+            border-radius: 4px;
+            background-color:transparent;
+            padding:.5rem .5rem .5rem .5rem;
+        }
+        .button1 a{
+            color:white;
+            background-color: transparent;
+            text-decoration: none;
+            align-items: center;
+            width: 10rem;
+        }
+        .button1:hover{
+            background-color:#69B9FF;
+            transition-duration: .5s;
+        }
+        .button2{
+            align-items: center;
+            width: 7rem;
+            border:.1rem solid white;
+            border-radius: 4px;
+            background-color:transparent;
+            padding:.5rem .5rem .5rem .5rem;
+        }
+        .button2 a{
+            color:white;
+            background-color: transparent;
+            text-decoration: none;
+            align-items: center;
+            width: 10rem;
+        }
+        .button2:hover{
+            background-color:#69B9FF;
+            transition-duration: .5s;
+        }
+        .content2{ 
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .content2 h1{
+            margin-bottom: 2rem;
+            color:#676770;
+            background-color: transparent;
+            display: flex;
+        }
+        .content2 h3{
+            margin-bottom: 5rem;
+            color:#676770;
+            background-color: transparent;
+            display: flex;
+        }
+        .content2_divs{
+            margin-bottom: 5rem;
+            flex-direction: row;
+            color: #676770;
+            display: flex;
+            justify-content: center;
+            width: 60rem;
+            text-align: center;
+        }
+        .content2_divstyle{
+            padding:.5rem 1rem .5rem 1rem;
+            margin:.5rem;
+            border: .1em #69B9FF solid;
+            border-radius: 5px;
+        }
+        .content3{
+            background-color:#192024;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .content3 h1{
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            color:#ffffff;
+            background-color: transparent;
+            display: flex;
+        }
+        .content3 h3{
+            margin-bottom: 5rem;
+            color:#e8e8e8;
+            background-color: transparent;
+            display: flex;
+        }
+        .content3_divs{
+            display: flex;
+            flex-direction: row;
+            background-color: transparent;
+        }
+        .content3_divstyle{
+            text-align: center;
+            align-items: center;
+            margin:4.5rem;
+            background-color: transparent;
+            flex-direction: column;
+            display: flex;
+            width: 50vh;
+        }
+        .content3 p{
+            background-color: transparent;
+            margin:.5rem;
+            color:white;
+        }
+        .content4{
+            display: flex;
+            flex-direction: column;
+            margin:5rem;
+            text-align: center;
+            align-items: center;
+        }
+        .content4 p,h1,h2,h3{
+            color: #676770;
+            margin-bottom: 2rem;
+        }
+        .content4 p{width: 45rem;}
+        .content4 h2{margin-top:2rem;}
+
+        .tabbuttonstyle{
+            align-items: center;
+            width: 10rem;
+            border:.1rem solid white;
+            border-radius: 4px;
+            background-color:gray;
+            padding:.2rem .2rem .2rem .2rem;
+            margin-bottom: 2rem;
+        }
+        .tabbuttonstyle a{
+            color:white;
+            background-color: transparent;
+            text-decoration: none;
+            align-items: center;
+            width: 5rem;
+        }
+        .tabbuttonstyle:hover{
+            background-color: blueviolet;
+            transition-duration: .5s;
+        }
+        .content5{
+            display: flex;
+            flex-direction: row;
+            margin:13rem;
+            text-align: center;
+            align-items: center;
+        }
+        .content5_1{
+            width:40rem;
+            text-align: justify;
+            margin-bottom: 1.7rem;
+        }
+        .content5_2{
+            display: flex;
+            flex-direction: column;
+            width: 30rem;
+            margin: 5rem;
+        }
+        .content5_2 a{
+            text-decoration: none;
+            padding-bottom: 1rem;
+            color:black;
+            text-transform: uppercase;
+            text-align: justify;
+        }
+        .content5_3{
+            display: flex;
+            flex-direction: column;
+            margin-top: .7rem;
+        }
+        .content5_3 a{
+            text-decoration: none;
+            padding-bottom: 1rem;
+            color:black;
+            text-transform: uppercase;
+            text-align: justify;
+        }
+        .content5_2 a:hover{
+            color:blue;
+            transition-duration:.5s;
+        }
+        .content5_3 a:hover{
+            color:red;
+            transition-duration:.5s;
+        }
+        /* for script */
+        img#getImage {
+            width: 940px;
+            height: 647px;
+        }
